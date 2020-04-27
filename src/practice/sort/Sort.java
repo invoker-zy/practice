@@ -104,7 +104,7 @@ public class Sort {
 		fastSort(arr, i + 1, right);
 
 	}
-
+ 
 	/**
 	 * Êä³öÊı×é
 	 * 
