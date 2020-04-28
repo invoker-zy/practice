@@ -1,4 +1,4 @@
-package practice.sort;
+package practice.algorithm.sort;
 
 import java.util.Arrays;
 import java.util.Scanner;
