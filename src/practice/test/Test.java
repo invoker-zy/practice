@@ -1,16 +1,17 @@
 package practice.test;
 
-import java.util.ArrayList;
-import java.util.List;
-
-public class Test {
+public class Test extends Child {
 	public static void main(String[] args) {
-		List num = new ArrayList<String>();
-		num.add(5);
-		num.add(3);
-		num.add(1);
-		num.add(6);
-		num.add(0,4);
-		System.out.println(num.toString());
+		Test t = new Test();
+        Test testObject=new Test();
+        System.out.println(t.getNext());
+        System.out.println(testObject.getNext());
 	}
+    private static int i=1;
+    public int getNext(){
+         return i++;
+    }
+}
+class Child{
+	public String name = "Person";
 }
