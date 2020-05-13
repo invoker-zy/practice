@@ -5,6 +5,7 @@ interface IMessage {
 //	public static final String INFO = "invoker";
 //	public abstract String getInfo();
 	//简化定义
+	//抽象类不能省略abstract，接口可以1
 	String INFO = "invoker";
 	String getInfo();
 }
@@ -12,7 +13,7 @@ interface IChannel{
 	public abstract boolean connect();
 }
 abstract class DatabaseAbstract{
-	//抽象类不能省略abstract，接口可以
+	//抽象类不能省略abstract，接口可以2
 	public abstract boolean getDatabaseConnection();
 }
 class MeassageImpl extends DatabaseAbstract implements IMessage,IChannel {
