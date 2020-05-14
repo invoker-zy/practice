@@ -25,8 +25,5 @@ public class Abstract {
 		msg.setType("ªÒ»°type Ù–‘");
 		System.out.println(msg.getType());
 		System.out.println(msg.getInfo());
-
-		
-		
 	}
 }
