@@ -1,6 +1,6 @@
 package practice.javaBasic;
-
-abstract class Message {//抽象类
+//抽象类
+abstract class Message {
 	private String type;
 	public abstract String getInfo();//抽象方法(没有大括号方法体)
 	public void setType(String type) {//普通方法

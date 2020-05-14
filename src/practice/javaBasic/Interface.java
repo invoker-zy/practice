@@ -1,5 +1,5 @@
 package practice.javaBasic;
-
+//接口
 interface IMessage {
 	//完整定义
 //	public static final String INFO = "invoker";

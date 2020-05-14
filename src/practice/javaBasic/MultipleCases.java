@@ -1,7 +1,7 @@
 package practice.javaBasic;
-
-public class MultipleCases {
 //多例设计模式
+public class MultipleCases {
+
 	public static void main (String args[]) {
 		Color color = Color.getInstance("red");
 		System.out.println(color.toString());

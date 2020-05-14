@@ -1,7 +1,7 @@
 package practice.javaBasic;
-
-public class Singleton {
 //单例设计模式
+public class Singleton {
+
 	public static void main(String[] args) {
 		LanSingleton instance = null;
 		instance = LanSingleton.getInstance();
