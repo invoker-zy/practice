@@ -1,11 +1,12 @@
 package practice.test;
 
 public class Test{
+    private int a=10;
+    int b=20;
+    static int c=1;
 	public static void main(String[] args) {
-		String x= "7";
-		int a = 2;
-		int b = 2;
-		System.out.println(x+a+b);
+		Test t = new Test();
+		int j =t.a;
 	}
 
 }
