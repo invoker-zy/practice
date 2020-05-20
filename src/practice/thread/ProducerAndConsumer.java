@@ -1,4 +1,4 @@
-package practice.javaBasic;
+package practice.thread;
 
 class Producer implements Runnable{
 	private Messager msg;

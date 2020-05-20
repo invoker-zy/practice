@@ -1,4 +1,4 @@
-package practice.javaBasic;
+package practice.thread;
 
 class MyThread implements Runnable {
 	public int tickets = 1000;
